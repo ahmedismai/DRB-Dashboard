@@ -1,0 +1,10 @@
+{
+  "drivers": [
+    { "id": "d1", "name": "ahmed ismail", "phone": "+1234567890", "license": "DL001234", "status": "Available" },
+    { "id": "d2", "name": "Sarah ", "phone": "+1234567891", "license": "DL005678", "status": "Busy" }
+  ],
+  "routes": [
+    { "id": "r1", "title": "Downtown Route A", "fromTo": "City Center → Airport", "distance": "25 km", "assignedDriverId": "d1" },
+    { "id": "r2", "title": "Suburban Route B", "fromTo": "Northside → Mall", "distance": "15 km", "assignedDriverId": null }
+  ]
+}
